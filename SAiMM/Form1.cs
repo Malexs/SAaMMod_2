@@ -66,18 +66,33 @@ namespace SAiMM
                 values = lahmer.getListOfDoubles(a, r, m);
             }
 
-            switch (comboBox1.Text)
+            if (tmpFirstTBox.Text != "" && tmpSecTBox.Text != "")
             {
-                case "Ламера":
-                    break;
-                case "Равномерное":
-                    if (tmpFirstTBox.Text != "" && tmpSecTBox.Text != "")
-                    {
-                        Double a = Double.Parse(tmpFirstTBox.Text),
-                            b = Double.Parse(tmpSecTBox.Text);
+                Double a = Double.Parse(tmpFirstTBox.Text),
+                    b = Double.Parse(tmpSecTBox.Text);
+                switch (comboBox1.Text)
+                {
+                    case "Ламера":
+                        break;
+                    case "Равномерное":
                         values = new Ravnomernoe(values, a, b).GetNewList();
-                    }
-                    break;
+                        break;
+                    case "Гауссовское":
+                        values = new Gauss(values, a, b).GetNewList();
+                        break;
+                    case "Экспоненциальное":
+                        values = new Exponential(values, a).GetNewList();
+                        break;
+                    case "Гамма":
+                        values = new Gamma(values, a, b).GetNewList();
+                        break;
+                    case "Треугольное":
+                        values = new Triangle(values, a, b).GetNewList();
+                        break;
+                    case "Симпсона":
+                        values = new Simpson(values, a, b).GetNewList();
+                        break;
+                }
             }
 
             Statistics stat = new Statistics(values);

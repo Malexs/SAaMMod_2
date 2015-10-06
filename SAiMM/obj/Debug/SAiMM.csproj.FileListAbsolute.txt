@@ -7,3 +7,12 @@ C:\Malexs\projects\7 sem\SAiMM\1\SAiMM\SAiMM\obj\Debug\SAiMM.Properties.Resource
 C:\Malexs\projects\7 sem\SAiMM\1\SAiMM\SAiMM\obj\Debug\SAiMM.csproj.GenerateResource.Cache
 C:\Malexs\projects\7 sem\SAiMM\1\SAiMM\SAiMM\obj\Debug\SAiMM.exe
 C:\Malexs\projects\7 sem\SAiMM\1\SAiMM\SAiMM\obj\Debug\SAiMM.pdb
+C:\Alexander\Repositories\SAaMMod_1\SAiMM\bin\Debug\SAiMM.exe.config
+C:\Alexander\Repositories\SAaMMod_1\SAiMM\obj\Debug\SAiMM.exe
+C:\Alexander\Repositories\SAaMMod_1\SAiMM\obj\Debug\SAiMM.pdb
+C:\Alexander\Repositories\SAaMMod_1\SAiMM\bin\Debug\SAiMM.exe
+C:\Alexander\Repositories\SAaMMod_1\SAiMM\bin\Debug\SAiMM.pdb
+C:\Alexander\Repositories\SAaMMod_1\SAiMM\obj\Debug\SAiMM.csprojResolveAssemblyReference.cache
+C:\Alexander\Repositories\SAaMMod_1\SAiMM\obj\Debug\SAiMM.Form1.resources
+C:\Alexander\Repositories\SAaMMod_1\SAiMM\obj\Debug\SAiMM.Properties.Resources.resources
+C:\Alexander\Repositories\SAaMMod_1\SAiMM\obj\Debug\SAiMM.csproj.GenerateResource.Cache

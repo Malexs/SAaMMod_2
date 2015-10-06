@@ -51,9 +51,14 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Generators\Exponential.cs" />
+    <Compile Include="Generators\Gamma.cs" />
+    <Compile Include="Generators\Gauss.cs" />
     <Compile Include="Generators\Lahmer.cs" />
     <Compile Include="Generators\Ravnomernoe.cs" />
+    <Compile Include="Generators\Simpson.cs" />
     <Compile Include="Generators\Statistics.cs" />
+    <Compile Include="Generators\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
